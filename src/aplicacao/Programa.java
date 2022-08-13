@@ -55,6 +55,9 @@ public class Programa {
 		catch (ParseException e) {
 			System.out.println("Error: " + e.getMessage());
 		}
+		finally {
+			sc.close();
+		}
 	}
 
 }
